@@ -80,7 +80,7 @@ Now that the environment is set up, you can write your first React component.
 
 - **Why**:
     - **React Components**: React apps are built with components—reusable pieces of UI. App is the main component.
-    - **JSX**: The HTML-like syntax (<h1>Hello, World!</h1>) is JSX, which React compiles into JavaScript to render in the browser.
+    - **JSX**: The HTML-like syntax (`<h1>Hello, World!</h1>`) is JSX, which React compiles into JavaScript to render in the browser.
     - **Import React**: Required (in older React versions) to process JSX; in React 18+, it’s optional but included by CRA for compatibility.
     - **Export**: Makes App available to other files (like index.js).
 - **Result**: Save, and the browser updates to show "Hello, World!".
@@ -107,7 +107,7 @@ React needs to attach your app to an HTML page. This happens in the entry point.
 
 - **Why**:
     - **ReactDOM**: Links React to the browser’s DOM (Document Object Model).
-    - **root**: Finds <div id="root"></div> in public/index.html—the placeholder where your app renders.
+    - **root**: Finds `<div id="root"></div>` in public/index.html—the placeholder where your app renders.
     - **render**: Displays the App component in that div.
 
 - **Why This Way?**:
@@ -115,7 +115,7 @@ React needs to attach your app to an HTML page. This happens in the entry point.
     - CRA pre-configures this so you don’t have to set it up manually.
 
 public/index.html
-- **Why It’s Needed**: Provides the HTML skeleton with <div id="root"></div>. Without it, React has nowhere to render.
+- **Why It’s Needed**: Provides the HTML skeleton with `<div id="root"></div>`. Without it, React has nowhere to render.
 
 ## Why Start This Way?
 
